@@ -1,0 +1,21 @@
+# robots.txt для сайта Анти ИИ Проверка слуха
+# https://anti-ai-hearing-test-slow-memory-tr.vercel.app
+
+User-agent: *
+Allow: /
+
+# Запрещаем индексацию служебных или пустых страниц (если появятся)
+Disallow: /404.html
+Disallow: /500.html
+
+# Указываем путь к карте сайта
+Sitemap: https://anti-ai-hearing-test-slow-memory-tr.vercel.app/sitemap.xml
+
+# Основной хост (для поисковых систем)
+Host: https://anti-ai-hearing-test-slow-memory-tr.vercel.app
+
+# Задержка между запросами для щадящего сканирования (в секундах)
+Crawl-delay: 1
+
+# Указываем, что сайт не предназначен для коммерческих целей
+# (информационный / бесплатное приложение)
